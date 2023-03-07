@@ -5,7 +5,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function App() {
   return (
-    <Navbar bg="light" expand="lg">
+    <div className="App">
+      <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -28,6 +29,9 @@ function App() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    <div className="main-bg"></div>
+    </div>
+    
   );
 }
 
